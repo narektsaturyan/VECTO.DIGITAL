@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VECTO.DIGITAL.WebAPI", "VECTO.DIGITAL.WebAPI\VECTO.DIGITAL.WebAPI.csproj", "{31656926-C6FD-4E5F-9F9D-EA38EB4943CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2AC92758-BECA-431D-9348-29AF660119E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{78472B20-2DC1-4627-8B4D-B1C696E6609A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VECTO.DIGITAL.Domain", "VECTO.DIGITAL.Domain\VECTO.DIGITAL.Domain.csproj", "{AEE1D583-A661-4492-B014-0952E0F527C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E7A7E794-8968-49AC-A714-164A99CB55F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VECTO.DIGITAL.Infrastructure", "VECTO.DIGITAL.Infrastructure\VECTO.DIGITAL.Infrastructure.csproj", "{21DB7C01-F7CD-4449-B7F0-5CCB626EE701}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31656926-C6FD-4E5F-9F9D-EA38EB4943CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31656926-C6FD-4E5F-9F9D-EA38EB4943CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31656926-C6FD-4E5F-9F9D-EA38EB4943CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31656926-C6FD-4E5F-9F9D-EA38EB4943CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE1D583-A661-4492-B014-0952E0F527C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE1D583-A661-4492-B014-0952E0F527C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE1D583-A661-4492-B014-0952E0F527C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE1D583-A661-4492-B014-0952E0F527C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21DB7C01-F7CD-4449-B7F0-5CCB626EE701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DB7C01-F7CD-4449-B7F0-5CCB626EE701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DB7C01-F7CD-4449-B7F0-5CCB626EE701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DB7C01-F7CD-4449-B7F0-5CCB626EE701}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31656926-C6FD-4E5F-9F9D-EA38EB4943CF} = {2AC92758-BECA-431D-9348-29AF660119E6}
+		{AEE1D583-A661-4492-B014-0952E0F527C9} = {78472B20-2DC1-4627-8B4D-B1C696E6609A}
+		{21DB7C01-F7CD-4449-B7F0-5CCB626EE701} = {E7A7E794-8968-49AC-A714-164A99CB55F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BA45959-4133-492D-B919-2AD13C24A86F}
+	EndGlobalSection
+EndGlobal
